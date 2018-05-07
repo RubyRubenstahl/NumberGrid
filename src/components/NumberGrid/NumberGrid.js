@@ -5,14 +5,9 @@ import React, { Component } from "react";
 import propTypes from "prop-types";
 import NumberBox from "./NumberBox";
 
-
 class NumberGrid extends Component {
   render() {
-    const {
-      numbers=[],
-      columns = 10,
-      style: propStyle,
-    } = this.props;
+    const { numbers = [], columns = 10, style: propStyle } = this.props;
 
     // const styleFn = ({ num, digit, place }) => {};
 
@@ -28,22 +23,17 @@ class NumberGrid extends Component {
         padding: "16px",
         cursor: "pointer",
         color: "#666",
-        userSelect: 'none'
+        userSelect: "none"
       }
     };
 
-    const finalStyle = ({...styles.container,...propStyle});
+    const finalStyle = { ...styles.container, ...propStyle };
 
-
-    return <div style={finalStyle}>
-      {numbers.map(num=>
-        <NumberBox
-            key={num}
-            num={num}
-            {...this.props}
-        />
-      )}
-    </div>;
+    return (
+      <div style={finalStyle}>
+        {numbers.map(num => <NumberBox key={num} num={num} {...this.props} />)}
+      </div>
+    );
   }
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import background from './farm.jpg'
+import background from './farm-resized.jpg'
 
 const style = {
   stage:{
