@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c329b46-e50c-4080-9be3-de4f283ccf63" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HighlightPlaceValues.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/getPlaceValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/getPlaceValue.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hundreds-board.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hundreds-board.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HundredsBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HundredsBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NumberGrid/Digit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NumberGrid/Digit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NumberGrid/NumberBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NumberGrid/NumberBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NumberGrid/NumberGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NumberGrid/NumberGrid.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,15 +27,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/hundreds_board$getPlaceValue_test_js.dat" NAME="getPlaceValue.test.js Coverage Results" MODIFIED="1525749848230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49257424">
+    <splitter split-orientation="horizontal" split-proportion="0.40150565">
       <split-first>
-        <leaf>
-          <file leaf-file-name="HundredsBoard.js" pinned="false" current-in-tab="false">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="HundredsBoard.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/HundredsBoard.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
-                  <caret line="32" selection-start-line="32" selection-end-line="32" />
+                <state relative-caret-position="289">
+                  <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#40#81#0" expanded="true" />
@@ -34,8 +50,8 @@
           <file leaf-file-name="NumberInfoBoard.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/NumberInfoBoard.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+                <state>
+                  <caret column="3" selection-start-column="3" selection-end-column="3" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -43,23 +59,22 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-                <state split_layout="SPLIT">
-                  <first_editor>
-                    <caret lean-forward="true" />
-                  </first_editor>
-                  <second_editor>
-                    <markdownNavigatorState />
-                  </second_editor>
+          <file leaf-file-name="Digit.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/Digit.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/package.json">
-              <provider selected="true" editor-type-id="text-editor" />
+          <file leaf-file-name="theme.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/theme.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="16" selection-start-column="16" selection-end-column="16" />
+                </state>
+              </provider>
             </entry>
           </file>
           <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
@@ -74,18 +89,13 @@
           <file leaf-file-name="Stage.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Stage/Stage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
+                <state relative-caret-position="255">
                   <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="scratch.js" pinned="false" current-in-tab="false">
-            <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
-              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
@@ -100,33 +110,33 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/App.js">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="HighlightPlaceValues.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/HighlightPlaceValues.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+                <state relative-caret-position="153">
+                  <caret line="9" selection-start-line="9" selection-end-line="9" />
                   <folding>
-                    <element signature="e#0#41#0" expanded="true" />
+                    <element signature="e#0#26#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/stories/index.js">
+          <file leaf-file-name="getPlaceValue.test.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/util/getPlaceValue.test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+                <state>
+                  <caret column="45" selection-start-column="45" selection-end-column="45" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Digit.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/Digit.js">
+          <file leaf-file-name="jest.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/jest/bin/jest.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-61">
-                  <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -143,8 +153,8 @@
           <file leaf-file-name="NumberGrid.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/NumberGrid.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                <state relative-caret-position="510">
+                  <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#40#81#0" expanded="true" />
@@ -153,23 +163,14 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="NumberBox.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="NumberBox.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/NumberBox.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+                <state relative-caret-position="357">
+                  <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="dummyFn.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/dummyFn.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
                 </state>
               </provider>
             </entry>
@@ -191,10 +192,16 @@
       <find>numberStyleFn</find>
       <find>deb</find>
       <find>toucst</find>
+      <find>numS</find>
+      <find>jest</find>
+      <find>select</find>
+      <find>font</find>
+      <find>selected</find>
     </findStrings>
     <dirStrings>
       <dir>D:\dev\Projects\hundreds-board\src</dir>
       <dir>D:\dev\Projects\hundreds-board\build</dir>
+      <dir>D:\dev\Projects\hundreds-board</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -214,14 +221,22 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/stories/index.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/HundredsBoard.js" />
         <option value="$PROJECT_DIR$/src/components/NumberInfoBoard.js" />
-        <option value="$PROJECT_DIR$/src/components/NumberGrid/Digit.js" />
-        <option value="$PROJECT_DIR$/src/components/NumberGrid/NumberGrid.js" />
-        <option value="$PROJECT_DIR$/src/components/NumberGrid/NumberBox.js" />
         <option value="$PROJECT_DIR$/src/components/Stage/Stage.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/tests.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/util/index.js" />
+        <option value="$PROJECT_DIR$/tests/getPlaceValue.test.js" />
+        <option value="$PROJECT_DIR$/src/util/getPlaceValue.test.js" />
+        <option value="$PROJECT_DIR$/src/util/getPlaceValue.js" />
+        <option value="$PROJECT_DIR$/src/components/NumberGrid/Digit.js" />
+        <option value="$PROJECT_DIR$/src/theme.js" />
+        <option value="$PROJECT_DIR$/src/components/HundredsBoard.js" />
+        <option value="$PROJECT_DIR$/src/components/NumberGrid/NumberGrid.js" />
+        <option value="$PROJECT_DIR$/src/components/NumberGrid/NumberBox.js" />
+        <option value="$PROJECT_DIR$/src/components/HighlightPlaceValues.js" />
       </list>
     </option>
   </component>
@@ -321,59 +336,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="hundreds-board" type="b2602c69:ProjectViewProjectNode" />
               <item name="hundreds-board" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hundreds-board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hundreds-board" type="462c0819:PsiDirectoryNode" />
-              <item name=".storybook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hundreds-board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hundreds-board" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hundreds-board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hundreds-board" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hundreds-board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hundreds-board" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hundreds-board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hundreds-board" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hundreds-board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hundreds-board" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="NumberGrid" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hundreds-board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hundreds-board" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Stage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hundreds-board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hundreds-board" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hundreds-board" type="b2602c69:ProjectViewProjectNode" />
@@ -388,11 +356,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="hund&#9;FILE&#9;file://D:/dev/Projects/hundreds-board/src/components/HundredsBoard.js&#10;storie&#9;FILE&#9;file://D:/dev/Projects/hundreds-board/src/stories" />
+    <property name="SearchEverywhereHistoryKey" value="numbe&#9;FILE&#9;file://D:/dev/Projects/hundreds-board/src/components/NumberGrid/NumberBox.js&#10;digit&#9;FILE&#9;file://D:/dev/Projects/hundreds-board/src/components/NumberGrid/Digit.js&#10;jest&#9;FILE&#9;file://D:/dev/Projects/hundreds-board/node_modules/jest/bin/jest.js&#10;App.t&#9;FILE&#9;file://D:/dev/Projects/hundreds-board/src/App.test.js&#10;hund&#9;FILE&#9;file://D:/dev/Projects/hundreds-board/src/components/HundredsBoard.js&#10;storie&#9;FILE&#9;file://D:/dev/Projects/hundreds-board/src/stories" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -411,6 +380,7 @@
     <property name="node.js.selected.package.jscs" value="" />
     <property name="node.js.selected.package.prettier" value="C:\Users\Mike\AppData\Roaming\npm\node_modules\prettier" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -418,6 +388,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\Projects\hundreds-board\src\util" />
+      <recent name="D:\dev\Projects\hundreds-board\src" />
       <recent name="D:\dev\Projects\hundreds-board\src\components" />
       <recent name="D:\dev\Projects\hundreds-board\src\components\Stage" />
       <recent name="D:\dev\Projects\hundreds-board\src\components\NumberGrid" />
@@ -436,6 +408,22 @@
     </option>
   </component>
   <component name="RunManager" selected="npm.HUNDREDS ">
+    <configuration name="Jest Tests" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <jest-options value="--env=jsdom" />
+      <envs />
+      <scope-kind value="ALL" />
+    </configuration>
+    <configuration name="getPlaceValue.test.js" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/src/tests" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/tests/getPlaceValue.test.js" />
+    </configuration>
     <configuration name="HUNDREDS " type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -456,13 +444,38 @@
       <node-interpreter value="project" />
       <envs />
     </configuration>
+    <configuration name="storybook" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
     <list>
+      <item itemvalue="Jest.Jest Tests" />
       <item itemvalue="npm.HUNDREDS " />
+      <item itemvalue="Jest.getPlaceValue.test.js" />
       <item itemvalue="npm.build" />
+      <item itemvalue="npm.storybook" />
+      <item itemvalue="npm.test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.build" />
+        <item itemvalue="Jest.getPlaceValue.test.js" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.storybook" />
       </list>
     </recent_temporary>
   </component>
@@ -476,38 +489,73 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525567069602</updated>
-      <workItem from="1525567070964" duration="35928000" />
+      <workItem from="1525567070964" duration="36610000" />
+      <workItem from="1525714124826" duration="1404000" />
+      <workItem from="1525738317677" duration="12233000" />
+      <workItem from="1525789906228" duration="10000" />
+      <workItem from="1526144885279" duration="249000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Jest_Tests - 2018.05.07 at 23h 14m 28s.xml">
+      <configuration name="Jest Tests" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Jest_Tests - 2018.05.07 at 23h 16m 12s.xml">
+      <configuration name="Jest Tests" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Jest_Tests - 2018.05.07 at 23h 16m 40s.xml">
+      <configuration name="Jest Tests" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Jest_Tests - 2018.05.07 at 23h 16m 59s.xml">
+      <configuration name="Jest Tests" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Jest_Tests - 2018.05.07 at 23h 17m 32s.xml">
+      <configuration name="Jest Tests" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="getPlaceValue_test_js - 2018.05.07 at 23h 24m 08s.xml">
+      <configuration name="getPlaceValue.test.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Jest_Tests - 2018.05.07 at 23h 38m 14s.xml">
+      <configuration name="Jest Tests" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Jest_Tests - 2018.05.07 at 23h 38m 54s.xml">
+      <configuration name="Jest Tests" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Jest_Tests - 2018.05.07 at 23h 39m 31s.xml">
+      <configuration name="Jest Tests" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Jest_Tests - 2018.05.07 at 23h 39m 52s.xml">
+      <configuration name="Jest Tests" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35928000" />
+    <option name="totallyTimeSpent" value="50506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49946696" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info id="npm" order="0" sideWeight="0.5016234" side_tool="true" visible="true" weight="0.15031983" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49733475" visible="true" weight="0.32897604" />
+      <window_info id="npm" order="0" sideWeight="0.16558442" side_tool="true" visible="true" weight="0.15031983" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4978678" weight="0.32897604" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.2457356" />
       <window_info anchor="bottom" id="TypeScript" order="5" />
-      <window_info anchor="right" id="Remote Host" visible="true" weight="0.32995737" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49837664" visible="true" weight="0.15031983" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.83441556" visible="true" weight="0.15031983" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="6" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39978212" />
       <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49946696" weight="0.39978212" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,10 +566,259 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/NumberGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#40#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/NumberBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HundredsBoard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#40#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NumberInfoBoard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Stage/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Stage/Stage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stories/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/NumberGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#40#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/NumberBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dummyFn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/Digit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HundredsBoard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#40#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NumberInfoBoard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Stage/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Stage/Stage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stories/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/Digit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/NumberGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#40#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dummyFn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/NumberBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dummyFn.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -543,8 +840,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stories/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Stage/Stage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Stage/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -553,30 +884,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stories/index.js">
+    <entry file="file://$PROJECT_DIR$/src/App.test.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/jest-runner/build/run_test.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/jest/bin/jest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/Digit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -587,10 +900,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/getPlaceValue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/getPlaceValue.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/Digit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NumberInfoBoard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/NumberGrid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="510">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#40#81#0" expanded="true" />
@@ -600,18 +965,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NumberGrid/NumberBox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="357">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NumberInfoBoard.js">
+    <entry file="file://$PROJECT_DIR$/src/components/HighlightPlaceValues.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -620,34 +985,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HundredsBoard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="289">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#40#81#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Stage/Stage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret lean-forward="true" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
         </state>
       </provider>
     </entry>

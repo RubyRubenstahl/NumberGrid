@@ -7,14 +7,14 @@ import NumberBox from "./NumberBox";
 
 class NumberGrid extends Component {
   render() {
-    const { numbers = [], columns = 10, style: propStyle } = this.props;
+    const props = this.props;
+    const { numbers = [], columns = 10, style: propStyle } = props;
 
     // const styleFn = ({ num, digit, place }) => {};
 
     const styles = {
       container: {
-        width: "100vmin",
-        height: "100vmin",
+
         maxHeight: "7in",
         maxWidth: "7in",
         display: "flex",
@@ -31,7 +31,8 @@ class NumberGrid extends Component {
 
     return (
       <div style={finalStyle}>
-        {numbers.map(num => <NumberBox key={num} num={num} {...this.props} />)}
+        {numbers.map(num =>
+            <NumberBox key={num} num={num} {...props}/>)}
       </div>
     );
   }

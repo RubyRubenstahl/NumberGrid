@@ -12,7 +12,7 @@ const NumberBox = props => {
     onNumMouseUp = () => () => ({}),
     onNumTouchStart = () => () => ({}),
     onNumTouchEnd = () => () => ({}),
-    numStyleFn = () => () => ({}),
+    numStyleFn =() =>({}),
     columns,
     style: propStyle
   } = props;
@@ -21,7 +21,7 @@ const NumberBox = props => {
   const styles = {
     numberBox: {
       flexGrow: 1,
-      fontSize: "4vmin",
+      fontSize: "3.5vmin",
       width: boxSize,
       height: boxSize,
       display: "flex",
@@ -34,7 +34,8 @@ const NumberBox = props => {
   const numString = leftPad(num, 2, 0);
   const digits = numString.split("");
 
-  const generatedStyle = numStyleFn({ num });
+  const generatedStyle = numStyleFn(props);
+
   const finalStyle = { ...styles.numberBox, ...generatedStyle };
   return (
     <div
@@ -47,9 +48,11 @@ const NumberBox = props => {
       onTouchStart={onNumTouchStart(props)}
       onMouseDown={onNumMouseDown(props)}
     >
-      {digits.map((digit, index) => (
-        <Digit key={digit} value={digit} place={1} {...props} />
-      ))}
+      {digits.map((digit, index) =>{
+          const place = Math.pow(10, digits.length-index-1);
+          return(
+        <Digit key={num+'-'+index} value={digit} place={place} {...props} />
+      )})}
     </div>
   );
 };

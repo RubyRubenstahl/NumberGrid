@@ -1,21 +1,22 @@
 import React, { Component } from "react";
 
+const dummyEventHandler = () => () => ({});
 const Digit = props => {
   const {
     num,
     place,
     value,
     digitStyleFn = () => ({}),
-    onDigitClick = () => () => ({}),
-    onDigitMouseOver = () => () => ({}),
-    onDigitMouseOut = () => () => ({}),
-    onDigitMouseDown = () => () => ({}),
-    onDigitMouseUp = () => () => ({}),
-    onDigitTouchStart = () => () => ({}),
-    onDigitTouchEnd = () => () => ({})
+    onDigitClick = dummyEventHandler,
+    onDigitMouseOver = dummyEventHandler,
+    onDigitMouseOut = dummyEventHandler,
+    onDigitMouseDown = dummyEventHandler,
+    onDigitMouseUp = dummyEventHandler,
+    onDigitTouchStart = dummyEventHandler,
+    onDigitTouchEnd = dummyEventHandler,
   } = props;
 
-  const generatedStyle = digitStyleFn({ value: parseInt(value), place, num });
+  const generatedStyle = digitStyleFn({...props,...{style:null}, ...{value: parseInt(value)} });
   const style = generatedStyle;
 
   return (

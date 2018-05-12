@@ -9,7 +9,9 @@ import NumberInfoBoard from "./NumberInfoBoard";
 const styles = {
   container: {
     display: "flex",
-    letterSpacing: "2pt"
+    letterSpacing: "2pt",
+    width: '100vmin',
+    height: '100vmin'
   },
   board: {
     // transform: "rotate(0.003turn) ",
@@ -35,27 +37,20 @@ const styles = {
 class HundredsBoard extends Component {
   state = { overNum: null, selectedNum: null };
 
-  numStyleFn = ({ num }) => {
-    if (num === this.state.selectedNum) {
-      return {
-        backgroundColor: "rgb(255,255,255,0.3)",
-        color: "#e4ff7b"
-      };
-    }
 
-    if (num === this.state.overNum) {
-      return { color: "cyan" };
-    }
-
-    return { backgroundColor: "inherit", color: "inherit" };
-  };
 
   handleNumMouseOver = ({ num }) => e => {
     this.setState({ overNum: num });
+    if(this.props.onNumMouseOver){
+      this.props.onNumMouseOver({num, overNum: this.state.overNum, selectedNum: this.state.selectedNum});
+    }
   };
 
   handleNumClick = ({ num }) => e => {
     this.setState({ selectedNum: num });
+    if(this.props.onSelectedNumChanged){
+      this.props.onSelectedNumChanged(num);
+    }
   };
 
   numbers = new Array(100).fill(null).map((n, index) => index);
@@ -70,7 +65,8 @@ class HundredsBoard extends Component {
           numbers={this.numbers}
           onNumMouseOver={this.handleNumMouseOver}
           onNumClick={this.handleNumClick}
-          numStyleFn={this.numStyleFn}
+          overNum={overNum}
+          selectedNum={selectedNum}
           {...props}
         />
 
